@@ -1,0 +1,15 @@
+body{
+    margin: 0px;
+    
+    
+}
+header{
+    height: 100px;
+    background-color: blueviolet;
+}
+ .header{ 
+    max-width: 1640px;
+    background-color: black;
+    height: 100px;
+    margin: auto;
+ }

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- FIM GOOGLE FONTES -->
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- FIM BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="style.css">
+
+    <script src="menu.js" defer></script>
+
+    <title> Site  iPortfólio Marcel</title>
+</head>
+<body>
+    
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <h1 > Marcel Henrique</h1>
+                </a>
+            </div><!--logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#linguagens">Especialidades</a></li>
+                    <li><a href="#sobremin">Sobre</a></li>
+                    <li><a href="#projetinho">Projetos</a></li>
+                    
+                </ul>
+               
+            </nav>
+
+            <div class="btn-contato">
+                <a href="#">
+                    <button>Contato</button>
+                </a>
+            </div><!--btn-contato-->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#linguagens">Especialidades</a></li>
+                        <li><a href="#sobremin">Sobre</a></li>
+                        <li><a href="#projetinho">Projetos</a></li>
+                        <li><a href="#ctt">Contato</a></li>
+                    </ul>
+                </nav>
+
+            </div><!--menu-mobile-->
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div><!--interface-->
+    </header>
+
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <H1 style="font-size: 200%;">"Programar é mais do que uma habilidade para mim; é uma verdadeira paixão que me energiza e inspira." </H1>
+                        <p>Olá! Eu sou Marcel Henrique,  Tecnólogo em Análise e Desenvolvimento de Sistemas  e Full Stack Python pela EBAC. Com uma sólida formação técnica e paixão por resolver problemas complexos através da programação, estou sempre em busca de aprimoramento contínuo.</p>
+
+                       
+                    </div><!--txt-topo-site-->
+
+                    <div class="img-topo-site">
+                        <img src="./imagens/Perfil cinza.png" alt="">
+                    </div><!--img-topo-site-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+
+        <section  class="especiliadades">
+            <div class="interface" id="linguagens">
+                <h2 class="titulo"  >MINHAS <span>ESPECIALIDADES.</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        
+                            <img src="./imagens/icons8-html-240.png" alt="imagem html">
+                        </i>
+                        <h3>HTML </h3>
+                        <p> HTML é a linguagem de marcação fundamental que estrutura o conteúdo de uma página web. Ele define elementos como títulos, parágrafos, imagens e links usando tags. Sem HTML, não seria possível criar a base de qualquer site.</p>
+                        
+                    </div><!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                         <img src="./imagens/icons8-css-240.png" alt="imagem css">
+                        <h3>CSS</h3> 
+                        <p>CSS é responsável por estilizar e formatar o conteúdo definido pelo HTML. Ele permite personalizar a aparência de elementos, como cores, fontes e layouts. Com CSS, você pode criar designs atraentes e consistentes para suas páginas web.</p>
+                       
+                    </div><!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <img src="./imagens/js.png" alt="">
+                        <h3>JS</h3>
+                        <p>
+                            JavaScript é uma linguagem de programação que adiciona interatividade às páginas web. Ele permite manipular o conteúdo e o comportamento dos elementos HTML em tempo real. Com JavaScript, você pode criar funcionalidades dinâmicas, como animações e validações de formulários.
+                        </p>
+                        
+                    </div><!--especialidades-box-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--especiliadades-->
+
+        <section class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre" id="sobremin">
+                        <img src="./imagens/Perfil cinza.png" alt="">
+                    </div><!--img-sobre-->
+
+                    <div class="txt-sobre" >
+                        <h2 id="sobremin">MUITO PRAZER, <span>SOU MARCEL HENRIQUE.</span></h2>
+                        <p>
+
+                            Me formei em Análise e Desenvolvimento de Sistemas e, desde então, venho procurando oportunidades na área de programação. Desde a conclusão do curso, tenho me dedicado a aprimorar minhas habilidades técnicas. .</p>
+                        <p>Recentemente, iniciei um curso de Full Stack Python na EBAC com o objetivo de expandir meus conhecimentos e melhorar minha atuação no mercado de tecnologia .</p>
+                        <div class="btn-social">
+                            <a href="#"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="#"><button><i class="bi bi-github"></i></button></a>
+                            <a href="#"><button><i class="bi bi-linkedin"></i></button></a>
+                        </div><!--btn-social-->
+                    </div><!--txt-sobre-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--sobre-->
+
+        <section  class="portfolio">
+            <div class="interface" >
+                <h2 class="titulo" id="projetinho" >MEU <span>PORTFÓLIO.</span></h2>
+                <div class="flex">
+                    <div   class="img-port" style="background-image: url(images/imagem.jpg);">
+                        <div class="overlay">Projeto 1</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/imagem.jpg);">
+                        <div class="overlay">Projeto 2</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/imagem.jpg);">
+                        <div class="overlay">Projeto 3</div>
+                    </div>
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--portfolio-->
+
+        <section class="formulario" >
+            <div  class="interface" >
+                <h2  class="titulo">  ENTRE EM <span>CONTATO</span></h2>
+
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Seu nome completo:" required>
+                    <input type="text" name="" id="" placeholder="Seu e-mail:" required>
+                    <input type="text" name="" id="" placeholder="Seu celular:">
+                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                </form>
+            </div><!--interface-->
+        </section><!--formulario-->
+
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                       
+                    </div><!--logo-footer-->
+                    <div class="btn-social">
+                        <a href="#"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="#"><button><i class="bi bi-github"></i></button></a>
+                        <a href="#"><button><i class="bi bi-linkedin"></i></button></a>
+                    </div><!--btn-social-->
+                </div>
+            </div><!--line-footer-->
+
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i> <a href="marcelhenriquesilvadamiao@gmail.com">marcelhenriquesilvadamiao@gmail.com</a></p>
+            </div><!--line-footer-->
+        </div><!--interface-->
+    </footer>
+
+</body>
+</html>
